@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+resultado_mip.json
+optimizer/resultado_mip.json
+
+# Dato local pesado (>100MB, supera límite de GitHub)
+optimizer/scimago_data.json

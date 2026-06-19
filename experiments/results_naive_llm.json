@@ -1,0 +1,1735 @@
+{
+  "db": "DEMO_claude",
+  "data_source": "offline bundle",
+  "model": "claude-opus-4-5",
+  "N": 6,
+  "K_runs": 10,
+  "temperature": 0.7,
+  "modalities": {
+    "SO": {
+      "pool_size": 67,
+      "h_min": 8,
+      "eu_min": 4,
+      "mip": {
+        "excellence": 4.096668563292959,
+        "checks": {
+          "size_ok": true,
+          "areas": 6,
+          "areas_ok": true,
+          "eu": 5,
+          "eu_ok": true,
+          "women": 3,
+          "parity_ok": true,
+          "hmin_ok": true
+        },
+        "feasible": true
+      },
+      "conditions": {
+        "scores_provided": {
+          "runs": [
+            {
+              "valid": true,
+              "team": [
+                2,
+                27,
+                33,
+                54,
+                65,
+                66
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.096668563292959,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                27,
+                33,
+                54,
+                65,
+                66
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.096668563292959,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                27,
+                33,
+                54,
+                65,
+                66
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.096668563292959,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                27,
+                33,
+                54,
+                65,
+                66
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.096668563292959,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                27,
+                33,
+                54,
+                65,
+                66
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.096668563292959,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                16,
+                27,
+                33,
+                65,
+                66
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 5,
+                "areas_ok": true,
+                "eu": 6,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.032593413026981,
+              "opt_gap": 0.015640794288340892,
+              "jaccard_vs_mip": 0.7142857142857143
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                27,
+                33,
+                54,
+                65,
+                66
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.096668563292959,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                27,
+                33,
+                54,
+                65,
+                66
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.096668563292959,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                27,
+                33,
+                54,
+                65,
+                66
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.096668563292959,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                16,
+                27,
+                33,
+                65,
+                66
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 5,
+                "areas_ok": true,
+                "eu": 6,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.032593413026981,
+              "opt_gap": 0.015640794288340892,
+              "jaccard_vs_mip": 0.7142857142857143
+            }
+          ],
+          "summary": {
+            "valid_runs": 10,
+            "feasible_runs": 10,
+            "feasible_rate": 1.0,
+            "opt_gap": {
+              "mean": 0.0031281588576681785,
+              "std": 0.006256317715336357,
+              "min": 0.0,
+              "max": 0.015640794288340892
+            },
+            "jaccard": {
+              "mean": 0.9428571428571428,
+              "std": 0.11428571428571428,
+              "min": 0.7142857142857143,
+              "max": 1.0
+            },
+            "constraint_violation_rate": {
+              "areas": 0.0,
+              "eu": 0.0,
+              "parity": 0.0,
+              "hmin": 0.0
+            }
+          }
+        },
+        "raw_indicators": {
+          "runs": [
+            {
+              "valid": true,
+              "team": [
+                2,
+                16,
+                26,
+                40,
+                55,
+                65
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 5,
+                "areas_ok": true,
+                "eu": 6,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.6437854921622783,
+              "opt_gap": 0.11054911182920961,
+              "jaccard_vs_mip": 0.2
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                16,
+                26,
+                40,
+                54,
+                65
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 5,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.739098433118718,
+              "opt_gap": 0.08728314840457127,
+              "jaccard_vs_mip": 0.3333333333333333
+            },
+            {
+              "valid": true,
+              "team": [
+                16,
+                26,
+                37,
+                40,
+                55,
+                65
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 6,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.5269645802818563,
+              "opt_gap": 0.13906518777617852,
+              "jaccard_vs_mip": 0.09090909090909091
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                16,
+                26,
+                40,
+                54,
+                65
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 5,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.739098433118718,
+              "opt_gap": 0.08728314840457127,
+              "jaccard_vs_mip": 0.3333333333333333
+            },
+            {
+              "valid": true,
+              "team": [
+                16,
+                55,
+                65,
+                26,
+                37,
+                40
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 6,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.5269645802818568,
+              "opt_gap": 0.1390651877761784,
+              "jaccard_vs_mip": 0.09090909090909091
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                16,
+                26,
+                40,
+                55,
+                65
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 5,
+                "areas_ok": true,
+                "eu": 6,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.6437854921622783,
+              "opt_gap": 0.11054911182920961,
+              "jaccard_vs_mip": 0.2
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                16,
+                26,
+                40,
+                54,
+                65
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 5,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.739098433118718,
+              "opt_gap": 0.08728314840457127,
+              "jaccard_vs_mip": 0.3333333333333333
+            },
+            {
+              "valid": true,
+              "team": [
+                16,
+                26,
+                37,
+                40,
+                55,
+                65
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 6,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.5269645802818563,
+              "opt_gap": 0.13906518777617852,
+              "jaccard_vs_mip": 0.09090909090909091
+            },
+            {
+              "valid": true,
+              "team": [
+                16,
+                65,
+                54,
+                26,
+                40,
+                19
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.360562574654863,
+              "opt_gap": 0.17968404748037606,
+              "jaccard_vs_mip": 0.2
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                16,
+                26,
+                40,
+                55,
+                65
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 5,
+                "areas_ok": true,
+                "eu": 6,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.6437854921622783,
+              "opt_gap": 0.11054911182920961,
+              "jaccard_vs_mip": 0.2
+            }
+          ],
+          "summary": {
+            "valid_runs": 10,
+            "feasible_runs": 10,
+            "feasible_rate": 1.0,
+            "opt_gap": {
+              "mean": 0.11903763915102542,
+              "std": 0.02850000577373364,
+              "min": 0.08728314840457127,
+              "max": 0.17968404748037606
+            },
+            "jaccard": {
+              "mean": 0.20727272727272728,
+              "std": 0.09407809896694426,
+              "min": 0.09090909090909091,
+              "max": 0.3333333333333333
+            },
+            "constraint_violation_rate": {
+              "areas": 0.0,
+              "eu": 0.0,
+              "parity": 0.0,
+              "hmin": 0.0
+            }
+          }
+        }
+      }
+    },
+    "MdM": {
+      "pool_size": 107,
+      "h_min": 5,
+      "eu_min": 2,
+      "mip": {
+        "excellence": 4.080732419327193,
+        "checks": {
+          "size_ok": true,
+          "areas": 6,
+          "areas_ok": true,
+          "eu": 5,
+          "eu_ok": true,
+          "women": 3,
+          "parity_ok": true,
+          "hmin_ok": true
+        },
+        "feasible": true
+      },
+      "conditions": {
+        "scores_provided": {
+          "runs": [
+            {
+              "valid": true,
+              "team": [
+                2,
+                38,
+                45,
+                78,
+                96,
+                98
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.080732419327193,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                38,
+                45,
+                78,
+                96,
+                98
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.080732419327193,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                38,
+                45,
+                78,
+                96,
+                98
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.080732419327193,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                38,
+                45,
+                78,
+                96,
+                98
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.080732419327193,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                38,
+                45,
+                78,
+                96,
+                98
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.080732419327193,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                38,
+                45,
+                78,
+                96,
+                98
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.080732419327193,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                38,
+                45,
+                78,
+                96,
+                98
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.080732419327193,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                38,
+                45,
+                78,
+                96,
+                98
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.080732419327193,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                38,
+                45,
+                78,
+                96,
+                98
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.080732419327193,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                38,
+                45,
+                78,
+                96,
+                98
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.080732419327193,
+              "opt_gap": 0.0,
+              "jaccard_vs_mip": 1.0
+            }
+          ],
+          "summary": {
+            "valid_runs": 10,
+            "feasible_runs": 10,
+            "feasible_rate": 1.0,
+            "opt_gap": {
+              "mean": 0.0,
+              "std": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "jaccard": {
+              "mean": 1.0,
+              "std": 0.0,
+              "min": 1.0,
+              "max": 1.0
+            },
+            "constraint_violation_rate": {
+              "areas": 0.0,
+              "eu": 0.0,
+              "parity": 0.0,
+              "hmin": 0.0
+            }
+          }
+        },
+        "raw_indicators": {
+          "runs": [
+            {
+              "valid": true,
+              "team": [
+                12,
+                36,
+                53,
+                73,
+                78,
+                96
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 3,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.338540199256451,
+              "opt_gap": 0.18187720825692122,
+              "jaccard_vs_mip": 0.2
+            },
+            {
+              "valid": true,
+              "team": [
+                12,
+                24,
+                36,
+                53,
+                78,
+                96
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 5,
+                "areas_ok": true,
+                "eu": 4,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.4614984207868464,
+              "opt_gap": 0.15174579828060425,
+              "jaccard_vs_mip": 0.2
+            },
+            {
+              "valid": true,
+              "team": [
+                24,
+                36,
+                53,
+                78,
+                94,
+                96
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 4,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.3254611871684507,
+              "opt_gap": 0.18508227311882083,
+              "jaccard_vs_mip": 0.2
+            },
+            {
+              "valid": true,
+              "team": [
+                12,
+                24,
+                36,
+                53,
+                78,
+                96
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 5,
+                "areas_ok": true,
+                "eu": 4,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.4614984207868464,
+              "opt_gap": 0.15174579828060425,
+              "jaccard_vs_mip": 0.2
+            },
+            {
+              "valid": true,
+              "team": [
+                36,
+                53,
+                12,
+                78,
+                96,
+                73
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 3,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.338540199256451,
+              "opt_gap": 0.18187720825692122,
+              "jaccard_vs_mip": 0.2
+            },
+            {
+              "valid": true,
+              "team": [
+                12,
+                36,
+                53,
+                73,
+                78,
+                96
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 3,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.338540199256451,
+              "opt_gap": 0.18187720825692122,
+              "jaccard_vs_mip": 0.2
+            },
+            {
+              "valid": true,
+              "team": [
+                78,
+                96,
+                24,
+                36,
+                53,
+                12
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 5,
+                "areas_ok": true,
+                "eu": 4,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.461498420786846,
+              "opt_gap": 0.15174579828060436,
+              "jaccard_vs_mip": 0.2
+            },
+            {
+              "valid": true,
+              "team": [
+                78,
+                96,
+                24,
+                36,
+                53,
+                12
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 5,
+                "areas_ok": true,
+                "eu": 4,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.461498420786846,
+              "opt_gap": 0.15174579828060436,
+              "jaccard_vs_mip": 0.2
+            },
+            {
+              "valid": true,
+              "team": [
+                12,
+                36,
+                53,
+                73,
+                78,
+                96
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 3,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.338540199256451,
+              "opt_gap": 0.18187720825692122,
+              "jaccard_vs_mip": 0.2
+            },
+            {
+              "valid": true,
+              "team": [
+                12,
+                24,
+                36,
+                53,
+                78,
+                96
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 5,
+                "areas_ok": true,
+                "eu": 4,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.4614984207868464,
+              "opt_gap": 0.15174579828060425,
+              "jaccard_vs_mip": 0.2
+            }
+          ],
+          "summary": {
+            "valid_runs": 10,
+            "feasible_runs": 10,
+            "feasible_rate": 1.0,
+            "opt_gap": {
+              "mean": 0.1671320097549527,
+              "std": 0.015412893913697382,
+              "min": 0.15174579828060425,
+              "max": 0.18508227311882083
+            },
+            "jaccard": {
+              "mean": 0.2,
+              "std": 0.0,
+              "min": 0.2,
+              "max": 0.2
+            },
+            "constraint_violation_rate": {
+              "areas": 0.0,
+              "eu": 0.0,
+              "parity": 0.0,
+              "hmin": 0.0
+            }
+          }
+        }
+      }
+    },
+    "UEI": {
+      "pool_size": 134,
+      "h_min": 4,
+      "eu_min": 1,
+      "mip": {
+        "excellence": 4.030956903352433,
+        "checks": {
+          "size_ok": true,
+          "areas": 5,
+          "areas_ok": true,
+          "eu": 6,
+          "eu_ok": true,
+          "women": 3,
+          "parity_ok": true,
+          "hmin_ok": true
+        },
+        "feasible": true
+      },
+      "conditions": {
+        "scores_provided": {
+          "runs": [
+            {
+              "valid": true,
+              "team": [
+                2,
+                47,
+                57,
+                97,
+                118,
+                121
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.051958501520594,
+              "opt_gap": -0.005210077575052921,
+              "jaccard_vs_mip": 0.7142857142857143
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                47,
+                57,
+                97,
+                118,
+                121
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.051958501520594,
+              "opt_gap": -0.005210077575052921,
+              "jaccard_vs_mip": 0.7142857142857143
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                47,
+                57,
+                97,
+                118,
+                121
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.051958501520594,
+              "opt_gap": -0.005210077575052921,
+              "jaccard_vs_mip": 0.7142857142857143
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                47,
+                57,
+                97,
+                118,
+                121
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.051958501520594,
+              "opt_gap": -0.005210077575052921,
+              "jaccard_vs_mip": 0.7142857142857143
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                47,
+                57,
+                97,
+                118,
+                121
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.051958501520594,
+              "opt_gap": -0.005210077575052921,
+              "jaccard_vs_mip": 0.7142857142857143
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                47,
+                57,
+                97,
+                118,
+                121
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.051958501520594,
+              "opt_gap": -0.005210077575052921,
+              "jaccard_vs_mip": 0.7142857142857143
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                47,
+                57,
+                97,
+                118,
+                121
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.051958501520594,
+              "opt_gap": -0.005210077575052921,
+              "jaccard_vs_mip": 0.7142857142857143
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                47,
+                57,
+                97,
+                118,
+                121
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.051958501520594,
+              "opt_gap": -0.005210077575052921,
+              "jaccard_vs_mip": 0.7142857142857143
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                47,
+                57,
+                97,
+                118,
+                121
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.051958501520594,
+              "opt_gap": -0.005210077575052921,
+              "jaccard_vs_mip": 0.7142857142857143
+            },
+            {
+              "valid": true,
+              "team": [
+                2,
+                47,
+                57,
+                97,
+                118,
+                121
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 5,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 4.051958501520594,
+              "opt_gap": -0.005210077575052921,
+              "jaccard_vs_mip": 0.7142857142857143
+            }
+          ],
+          "summary": {
+            "valid_runs": 10,
+            "feasible_runs": 10,
+            "feasible_rate": 1.0,
+            "opt_gap": {
+              "mean": -0.005210077575052921,
+              "std": 0.0,
+              "min": -0.005210077575052921,
+              "max": -0.005210077575052921
+            },
+            "jaccard": {
+              "mean": 0.7142857142857143,
+              "std": 0.0,
+              "min": 0.7142857142857143,
+              "max": 0.7142857142857143
+            },
+            "constraint_violation_rate": {
+              "areas": 0.0,
+              "eu": 0.0,
+              "parity": 0.0,
+              "hmin": 0.0
+            }
+          }
+        },
+        "raw_indicators": {
+          "runs": [
+            {
+              "valid": true,
+              "team": [
+                45,
+                97,
+                27,
+                18,
+                89,
+                118
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 3,
+                "eu_ok": true,
+                "women": 5,
+                "parity_ok": false,
+                "hmin_ok": true
+              },
+              "feasible": false,
+              "excellence": 3.0577804991571504,
+              "opt_gap": 0.24142565339409086,
+              "jaccard_vs_mip": 0.09090909090909091
+            },
+            {
+              "valid": true,
+              "team": [
+                12,
+                45,
+                66,
+                89,
+                97,
+                118
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 3,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.3126235694973203,
+              "opt_gap": 0.17820417113804785,
+              "jaccard_vs_mip": 0.09090909090909091
+            },
+            {
+              "valid": true,
+              "team": [
+                12,
+                45,
+                66,
+                89,
+                97,
+                118
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 3,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.3126235694973203,
+              "opt_gap": 0.17820417113804785,
+              "jaccard_vs_mip": 0.09090909090909091
+            },
+            {
+              "valid": true,
+              "team": [
+                12,
+                45,
+                66,
+                89,
+                97,
+                118
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 3,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.3126235694973203,
+              "opt_gap": 0.17820417113804785,
+              "jaccard_vs_mip": 0.09090909090909091
+            },
+            {
+              "valid": true,
+              "team": [
+                45,
+                97,
+                66,
+                27,
+                18,
+                89
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 3,
+                "eu_ok": true,
+                "women": 4,
+                "parity_ok": false,
+                "hmin_ok": true
+              },
+              "feasible": false,
+              "excellence": 2.9832391435174688,
+              "opt_gap": 0.2599178768107411,
+              "jaccard_vs_mip": 0.0
+            },
+            {
+              "valid": true,
+              "team": [
+                45,
+                66,
+                12,
+                97,
+                18,
+                27
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 5,
+                "areas_ok": true,
+                "eu": 3,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.206743949532266,
+              "opt_gap": 0.20447079281217123,
+              "jaccard_vs_mip": 0.0
+            },
+            {
+              "valid": true,
+              "team": [
+                12,
+                18,
+                45,
+                66,
+                97,
+                118
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 3,
+                "eu_ok": true,
+                "women": 3,
+                "parity_ok": true,
+                "hmin_ok": true
+              },
+              "feasible": true,
+              "excellence": 3.447068394474634,
+              "opt_gap": 0.14485109190629028,
+              "jaccard_vs_mip": 0.09090909090909091
+            },
+            {
+              "valid": true,
+              "team": [
+                45,
+                97,
+                66,
+                27,
+                18,
+                89
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 3,
+                "eu_ok": true,
+                "women": 4,
+                "parity_ok": false,
+                "hmin_ok": true
+              },
+              "feasible": false,
+              "excellence": 2.9832391435174688,
+              "opt_gap": 0.2599178768107411,
+              "jaccard_vs_mip": 0.0
+            },
+            {
+              "valid": true,
+              "team": [
+                45,
+                97,
+                66,
+                27,
+                18,
+                89
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 3,
+                "eu_ok": true,
+                "women": 4,
+                "parity_ok": false,
+                "hmin_ok": true
+              },
+              "feasible": false,
+              "excellence": 2.9832391435174688,
+              "opt_gap": 0.2599178768107411,
+              "jaccard_vs_mip": 0.0
+            },
+            {
+              "valid": true,
+              "team": [
+                45,
+                97,
+                27,
+                18,
+                89,
+                118
+              ],
+              "checks": {
+                "size_ok": true,
+                "areas": 6,
+                "areas_ok": true,
+                "eu": 3,
+                "eu_ok": true,
+                "women": 5,
+                "parity_ok": false,
+                "hmin_ok": true
+              },
+              "feasible": false,
+              "excellence": 3.0577804991571504,
+              "opt_gap": 0.24142565339409086,
+              "jaccard_vs_mip": 0.09090909090909091
+            }
+          ],
+          "summary": {
+            "valid_runs": 10,
+            "feasible_runs": 5,
+            "feasible_rate": 0.5,
+            "opt_gap": {
+              "mean": 0.214653933535301,
+              "std": 0.04067162677081194,
+              "min": 0.14485109190629028,
+              "max": 0.2599178768107411
+            },
+            "jaccard": {
+              "mean": 0.05454545454545455,
+              "std": 0.04453617714151233,
+              "min": 0.0,
+              "max": 0.09090909090909091
+            },
+            "constraint_violation_rate": {
+              "areas": 0.0,
+              "eu": 0.0,
+              "parity": 0.5,
+              "hmin": 0.0
+            }
+          }
+        }
+      }
+    }
+  }
+}
