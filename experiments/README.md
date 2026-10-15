@@ -75,3 +75,33 @@ Single anonymised institution, one model, K = 10, N = 6, small candidate pools. 
 only — this is **not** a validation against a real evaluation panel, which remains
 future work. Results characterise the architecture, not the real-world quality of any
 selection.
+
+# Deterministic baselines: MIP vs. simpler selection strategies
+
+`heuristic_baselines.py` compares the optimiser with strategies a committee could apply
+without the tool, on the same eligible pools as the ablation above. No LLM, no API key,
+no MongoDB: it runs offline on `demo_bundle.json` (stdlib + numpy + OR-Tools).
+
+```bash
+python experiments/heuristic_baselines.py   # writes results_heuristic_baselines.json
+```
+
+Strategies (N = 6): top-N by h-index, top-N by E_i (constraints ignored), uniform random
+feasible teams (1000 samples, seed 42), a constraint-aware greedy over E_i, and the MIP
+(alpha = 0.95, beta = 0.05). Gap is defined as in the ablation.
+
+| Strategy | Gap SO / MdM / UEI | Hard constraints |
+|---|---|---|
+| Top-N by h-index | +22.5 / +20.6 / +20.2 % | parity violated in all calls; EU in SO |
+| Top-N by E_i | −5.9 / −4.7 / −4.4 % | parity violated in all calls |
+| Random feasible (mean) | +32.0 / +43.4 / +47.7 % | satisfied |
+| Constraint-aware greedy | 0.0 / 0.0 / −0.5 % | satisfied |
+| MIP | 0.0 / 0.0 / 0.0 % | satisfied, certified |
+
+A stress grid (N = 4–10, 2–5 required areas, EU minima 0 to N/2+1) compares the greedy
+with the MIP on pure excellence (alpha = 1, beta = 0, penalty and area-bonus terms set to
+zero): the greedy reaches the MIP optimum in all 252 feasible instances. On these data the
+practical gain therefore comes mainly from the explicit score and constraint handling;
+the MIP adds certified optimality and feasibility, exact handling of pinned members and
+the cohesion term, and independence from whether the constraints happen to suit a greedy
+rule.

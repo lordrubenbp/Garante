@@ -1,0 +1,2091 @@
+{
+  "N": 6,
+  "alpha": 0.95,
+  "beta": 0.05,
+  "random_samples": 1000,
+  "seed": 42,
+  "modalities": {
+    "SO": {
+      "pool_size": 67,
+      "h_min": 8,
+      "eu_min": 4,
+      "mip_excellence": 4.096668563292959,
+      "strategies": {
+        "mip": {
+          "team": [
+            2,
+            27,
+            33,
+            54,
+            65,
+            66
+          ],
+          "excellence": 4.096668563292959,
+          "cohesion": 1.0,
+          "opt_gap": 0.0,
+          "jaccard": 1.0,
+          "checks": {
+            "parity": true,
+            "eu": true,
+            "areas": true,
+            "feasible": true
+          }
+        },
+        "top_E": {
+          "team": [
+            2,
+            33,
+            27,
+            26,
+            37,
+            65
+          ],
+          "excellence": 4.33999726189335,
+          "cohesion": 1.0,
+          "opt_gap": -0.05939672561765648,
+          "jaccard": 0.5,
+          "checks": {
+            "parity": false,
+            "eu": true,
+            "areas": true,
+            "feasible": false
+          }
+        },
+        "top_h": {
+          "team": [
+            54,
+            26,
+            64,
+            40,
+            8,
+            44
+          ],
+          "excellence": 3.1753118512725984,
+          "cohesion": 0.0,
+          "opt_gap": 0.22490389392881746,
+          "jaccard": 0.09090909090909091,
+          "checks": {
+            "parity": false,
+            "eu": false,
+            "areas": true,
+            "feasible": false
+          }
+        },
+        "greedy_E": {
+          "team": [
+            2,
+            33,
+            27,
+            65,
+            66,
+            54
+          ],
+          "excellence": 4.096668563292959,
+          "cohesion": 1.0,
+          "opt_gap": 0.0,
+          "jaccard": 1.0,
+          "checks": {
+            "parity": true,
+            "eu": true,
+            "areas": true,
+            "feasible": true
+          }
+        },
+        "random": {
+          "samples": 1000,
+          "opt_gap": {
+            "mean": 0.32029371088220415,
+            "std": 0.06945994452176328
+          },
+          "jaccard": {
+            "mean": 0.10652640692640693,
+            "std": 0.09063522366425761
+          },
+          "cohesion": {
+            "mean": 0.40667654400000003,
+            "std": 0.5432784322752874
+          },
+          "share_reaching_mip": 0.0
+        }
+      },
+      "stress": [
+        {
+          "N": 4,
+          "min_areas": 2,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 2,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 2,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 2,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 3,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 3,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 3,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 3,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 4,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 4,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 4,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 4,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 2,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 2,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 2,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 2,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 2,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 3,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 3,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 3,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 3,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 3,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 4,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 4,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 4,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 4,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 4,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 5,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 5,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 5,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 5,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 5,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 6,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 6,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 6,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 6,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3600283963454377e-16
+        }
+      ]
+    },
+    "MdM": {
+      "pool_size": 107,
+      "h_min": 5,
+      "eu_min": 2,
+      "mip_excellence": 4.080732419327193,
+      "strategies": {
+        "mip": {
+          "team": [
+            2,
+            38,
+            45,
+            78,
+            96,
+            98
+          ],
+          "excellence": 4.080732419327193,
+          "cohesion": 1.0,
+          "opt_gap": 0.0,
+          "jaccard": 1.0,
+          "checks": {
+            "parity": true,
+            "eu": true,
+            "areas": true,
+            "feasible": true
+          }
+        },
+        "top_E": {
+          "team": [
+            2,
+            45,
+            38,
+            96,
+            36,
+            49
+          ],
+          "excellence": 4.274038797574144,
+          "cohesion": 1.0,
+          "opt_gap": -0.04737051058075062,
+          "jaccard": 0.5,
+          "checks": {
+            "parity": false,
+            "eu": true,
+            "areas": true,
+            "feasible": false
+          }
+        },
+        "top_h": {
+          "team": [
+            78,
+            36,
+            94,
+            53,
+            12,
+            60
+          ],
+          "excellence": 3.2401672295725246,
+          "cohesion": 0.0,
+          "opt_gap": 0.2059839027360818,
+          "jaccard": 0.09090909090909091,
+          "checks": {
+            "parity": false,
+            "eu": true,
+            "areas": true,
+            "feasible": false
+          }
+        },
+        "greedy_E": {
+          "team": [
+            2,
+            45,
+            38,
+            96,
+            98,
+            78
+          ],
+          "excellence": 4.080732419327193,
+          "cohesion": 1.0,
+          "opt_gap": 0.0,
+          "jaccard": 1.0,
+          "checks": {
+            "parity": true,
+            "eu": true,
+            "areas": true,
+            "feasible": true
+          }
+        },
+        "random": {
+          "samples": 1000,
+          "opt_gap": {
+            "mean": 0.43393982329870584,
+            "std": 0.07426202176473695
+          },
+          "jaccard": {
+            "mean": 0.03932727272727273,
+            "std": 0.05760441997886906
+          },
+          "cohesion": {
+            "mean": 0.140411777,
+            "std": 0.28480084810949086
+          },
+          "share_reaching_mip": 0.0
+        }
+      },
+      "stress": [
+        {
+          "N": 4,
+          "min_areas": 2,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 2,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 2,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 2,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 3,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 3,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 3,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 3,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 4,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 4,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 4,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 4,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 2,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 2,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 2,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 2,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 2,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 3,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 3,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 3,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 3,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 3,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 4,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 4,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 4,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 4,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 4,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 5,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 5,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 5,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 5,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 5,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": 1.6972814453306175e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 6,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 6,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 6,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 6,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        }
+      ]
+    },
+    "UEI": {
+      "pool_size": 134,
+      "h_min": 4,
+      "eu_min": 1,
+      "mip_excellence": 4.030956903352433,
+      "strategies": {
+        "mip": {
+          "team": [
+            2,
+            28,
+            47,
+            57,
+            118,
+            121
+          ],
+          "excellence": 4.030956903352433,
+          "cohesion": 1.029412,
+          "opt_gap": 0.0,
+          "jaccard": 1.0,
+          "checks": {
+            "parity": true,
+            "eu": true,
+            "areas": true,
+            "feasible": true
+          }
+        },
+        "top_E": {
+          "team": [
+            2,
+            57,
+            47,
+            118,
+            45,
+            61
+          ],
+          "excellence": 4.209187650095057,
+          "cohesion": 1.0,
+          "opt_gap": -0.04421549299978743,
+          "jaccard": 0.5,
+          "checks": {
+            "parity": false,
+            "eu": true,
+            "areas": true,
+            "feasible": false
+          }
+        },
+        "top_h": {
+          "team": [
+            97,
+            45,
+            116,
+            66,
+            12,
+            75
+          ],
+          "excellence": 3.216483954848858,
+          "cohesion": 0.0,
+          "opt_gap": 0.2020544917823856,
+          "jaccard": 0.0,
+          "checks": {
+            "parity": false,
+            "eu": true,
+            "areas": true,
+            "feasible": false
+          }
+        },
+        "greedy_E": {
+          "team": [
+            2,
+            57,
+            47,
+            118,
+            121,
+            97
+          ],
+          "excellence": 4.051958501520594,
+          "cohesion": 1.0,
+          "opt_gap": -0.005210077575052921,
+          "jaccard": 0.7142857142857143,
+          "checks": {
+            "parity": true,
+            "eu": true,
+            "areas": true,
+            "feasible": true
+          }
+        },
+        "random": {
+          "samples": 1000,
+          "opt_gap": {
+            "mean": 0.47680880479050464,
+            "std": 0.0803108816592833
+          },
+          "jaccard": {
+            "mean": 0.02978787878787879,
+            "std": 0.05055714384128548
+          },
+          "cohesion": {
+            "mean": 0.10629414,
+            "std": 0.2597659968777061
+          },
+          "share_reaching_mip": 0.0
+        }
+      },
+      "stress": [
+        {
+          "N": 4,
+          "min_areas": 2,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 2,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 2,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 2,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 3,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 3,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 3,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 3,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 4,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 4,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 4,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 4,
+          "min_areas": 4,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 2,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 2,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 2,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 2,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 2,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 3,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 3,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 3,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 3,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 3,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 4,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 4,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 4,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 4,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 4,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 5,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 5,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 5,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 5,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 6,
+          "min_areas": 5,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 2,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 3,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 4,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 8,
+          "min_areas": 5,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": 0.0
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 2,
+          "eu_min": 6,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 3,
+          "eu_min": 6,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 4,
+          "eu_min": 6,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 0,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 1,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 2,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 3,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 4,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 5,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        },
+        {
+          "N": 10,
+          "min_areas": 5,
+          "eu_min": 6,
+          "greedy_feasible": true,
+          "greedy_gap": -1.3781461354047677e-16
+        }
+      ]
+    }
+  }
+}
