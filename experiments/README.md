@@ -105,3 +105,16 @@ practical gain therefore comes mainly from the explicit score and constraint han
 the MIP adds certified optimality and feasibility, exact handling of pinned members and
 the cohesion term, and independence from whether the constraints happen to suit a greedy
 rule.
+
+# Copublication network figure (paper Fig. 5)
+
+`plot_network.py` renders the copublication network of the synthetic Demo institute
+(80 researchers, no database or API key) with the dashboard's encoding and explicit
+legends: node colour = research area, node size = excellence score E_i, edge width =
+cohesion K_ij. Positions come from a seeded force-directed layout and carry no metric
+meaning, so the plot has no axes.
+
+```bash
+pip install matplotlib   # figure dep, not in runtime requirements.txt
+python experiments/plot_network.py   # writes network_demo.pdf / .png
+```
